@@ -14,6 +14,7 @@ public class WeaponKnifeExplosion : BasePlugin, IPluginConfig<Settings>
 {
     public override string ModuleName => "[ANY] Weapon/Knife Explosion";
     public override string ModuleVersion => "1.0.0";
+    public override string ModuleAuthor => "Feykich";
 
     public Settings Config { get; set; } = null!;
 
